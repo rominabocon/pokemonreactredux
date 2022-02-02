@@ -1,11 +1,13 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 
-const cantidadPokemonHook = () => {
+const CantidadPokemonHook = () => {
+    const game_shop = useSelector((state) => state.game_shop)
     return (
         <React.Fragment>
-            Unidades : 0
+            Unidades : {game_shop.pokemon}
         </React.Fragment>
     )
 }
 
-export default cantidadPokemonHook
+export default CantidadPokemonHook

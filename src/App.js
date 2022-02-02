@@ -6,7 +6,10 @@ import pokemon from './img/pokemonred.jpg'
 // import CompraPokemon from './components/compraPokemon';
 import store from './redux/store';
 import {Provider} from 'react-redux'
-import compraPokemonHook from './components/compraPokemonHook';
+import CompraPokemonHook from './Components/CompraPokemonHook';
+import CantidadPokemonHook from './Components/CantidadPokemonHook'
+import BuscadorPokemon from './Components/Buscador/BuscadorPokemon';
+import ResultadoPokemon from './Components/Buscador/ResultadoPokemon';
 
 function App() {
 
@@ -24,13 +27,19 @@ function App() {
               <div className='col-8'>
                 <div className='card-body'>
                   <div className='card-title h3 text-center'>
-
+                    <CantidadPokemonHook/>
                   </div>
-                <compraPokemonHook/> {/* NO SE IMPORTA PORQUE */}
+                  <CompraPokemonHook/> 
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div className='col-12 mt-4 border-top pt-3'>
+          <BuscadorPokemon/>
+        </div>
+        <div className='col-12'>
+          <ResultadoPokemon/>
         </div>
       </div>
     </div>
