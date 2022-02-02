@@ -26,7 +26,7 @@ function App() {
                   <div className='card-title h3 text-center'>
 
                   </div>
-                <compraPokemonHook/>
+                <compraPokemonHook/> {/* NO SE IMPORTA PORQUE */}
                 </div>
               </div>
             </div>
