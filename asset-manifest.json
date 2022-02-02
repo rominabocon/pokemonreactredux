@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/pokemonreactredux/static/css/main.c27433a9.css",
+    "main.js": "/pokemonreactredux/static/js/main.c4de92c5.js",
+    "static/js/787.1ab275c1.chunk.js": "/pokemonreactredux/static/js/787.1ab275c1.chunk.js",
+    "static/media/pokemonred.jpg": "/pokemonreactredux/static/media/pokemonred.fbc645836973e587fc41.jpg",
+    "index.html": "/pokemonreactredux/index.html",
+    "main.c27433a9.css.map": "/pokemonreactredux/static/css/main.c27433a9.css.map",
+    "main.c4de92c5.js.map": "/pokemonreactredux/static/js/main.c4de92c5.js.map",
+    "787.1ab275c1.chunk.js.map": "/pokemonreactredux/static/js/787.1ab275c1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c27433a9.css",
+    "static/js/main.c4de92c5.js"
+  ]
+}
