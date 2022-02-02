@@ -10,7 +10,7 @@ export default function BuscadorPokemon() {
             <label htmlFor='buscar_pokemon' className='text-white'>Buscar Pokemon</label>
             <input type="text" className='form-control' id='buscar_pokemon' value={pokemonName}
             onChange={(e) => {
-                setPokemonName(e.target.value)
+                setPokemonName(e.target.value.toLowerCase())
             }}/>
             <button className='btn btn-primary mt-3'
             onClick={() => {
